@@ -49,4 +49,4 @@ pip install rdflib pyshacl
 본 저장소의 코드는 MIT License를 따릅니다.
 
 ## 문의
-[이메일 주소]
+[jhp@hansung.ac.kr]
