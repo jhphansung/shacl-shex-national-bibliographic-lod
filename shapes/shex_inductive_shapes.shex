@@ -1,0 +1,942 @@
+# 국가서지 LOD 귀납 ShEx 형상 (실데이터 전수 집계 기반)
+# 생성일: 2026-05-18
+# 속성 채택 임계값: 0.1
+
+# nlon:OnlineMaterial (인스턴스 21,810,815건)
+<nlon:OnlineMaterial> {
+    nlon:datePublished  +  # 출현율 100.0%
+    rdfs:label  *  # 출현율 99.95%
+    nlon:genre  *  # 출현율 99.87%
+    dcterms:title  *  # 출현율 99.58%
+    dcterms:accessRights  *  # 출현율 99.55%
+    nlon:audienceNote  *  # 출현율 97.79%
+    dc:publisher  *  # 출현율 96.99%
+    nlon:typeOfResource  ?  # 출현율 95.98%
+    nlon:medium  *  # 출현율 93.53%
+    nlon:antecedentSource  ?  # 출현율 93.25%
+    dcterms:issued  *  # 출현율 93.12%
+    nlon:publicationPlace  *  # 출현율 90.26%
+    dc:format  *  # 출현율 88.31%
+    bibframe:extent  *  # 출현율 87.71%
+    nlon:holdingInstitution  ?  # 출현율 82.05%
+    nlon:titleOfHostItem  *  # 출현율 77.8%
+    nlon:relatedParts  *  # 출현율 63.98%
+    nlon:newsPosition  *  # 출현율 60.11%
+    dcterms:description  *  # 출현율 59.33%
+    nlon:keyword  *  # 출현율 56.68%
+    nlon:uci  *  # 출현율 56.65%
+    dcterms:hasFormat  *  # 출현율 50.31%
+    nlon:reproductionNote  *  # 출현율 49.69%
+    nlon:otherNumber  ?  # 출현율 43.16%
+    dc:creator  *  # 출현율 37.2%
+    nlon:kdc  *  # 출현율 30.32%
+    dcterms:identifier  *  # 출현율 28.23%
+    nlon:kdcn  *  # 출현율 21.39%
+    dcterms:creator  *  # 출현율 20.24%
+    dcterms:subject  *  # 출현율 18.54%
+    nlon:restriction  *  # 출현율 18.15%
+    dcterms:abstract  *  # 출현율 17.59%
+    dcterms:alternative  *  # 출현율 14.92%
+    nlon:languageNote  *  # 출현율 12.58%
+    dcterms:isPartOf  *  # 출현율 12.48%
+    nlon:remainderOfTitle  *  # 출현율 10.85%
+}
+
+# nlon:ElectronicJournal (인스턴스 16,901,548건)
+<nlon:ElectronicJournal> {
+    nlon:datePublished  +  # 출현율 100.0%
+    nlon:genre  *  # 출현율 100.0%
+    nlon:typeOfResource  ?  # 출현율 100.0%
+    dcterms:title  *  # 출현율 100.0%
+    rdfs:label  *  # 출현율 100.0%
+    dcterms:accessRights  *  # 출현율 99.99%
+    dc:publisher  *  # 출현율 99.82%
+    dcterms:issued  *  # 출현율 99.74%
+    nlon:audienceNote  *  # 출현율 99.73%
+    nlon:antecedentSource  ?  # 출현율 98.87%
+    nlon:medium  ?  # 출현율 98.76%
+    nlon:titleOfHostItem  *  # 출현율 98.4%
+    dc:format  *  # 출현율 92.6%
+    nlon:publicationPlace  *  # 출현율 90.53%
+    nlon:holdingInstitution  ?  # 출현율 90.18%
+    bibframe:extent  *  # 출현율 89.23%
+    nlon:relatedParts  *  # 출현율 81.33%
+    nlon:newsPosition  *  # 출현율 77.54%
+    dcterms:description  *  # 출현율 65.8%
+    nlon:keyword  *  # 출현율 63.77%
+    nlon:reproductionNote  *  # 출현율 62.06%
+    nlon:uci  *  # 출현율 58.34%
+    dcterms:hasFormat  *  # 출현율 55.74%
+    nlon:otherNumber  ?  # 출현율 54.51%
+    dc:creator  *  # 출현율 32.62%
+    dcterms:identifier  *  # 출현율 23.33%
+    nlon:kdc  *  # 출현율 22.45%
+    dcterms:abstract  *  # 출현율 17.64%
+    dcterms:isPartOf  *  # 출현율 16.02%
+    dcterms:alternative  *  # 출현율 13.22%
+    dcterms:creator  *  # 출현율 11.62%
+    nlon:relatedPlace  *  # 출현율 11.59%
+    nlon:kdcn  *  # 출현율 11.16%
+    nlon:currentPublicationFrequency  *  # 출현율 10.99%
+    nlon:languageNote  *  # 출현율 10.79%
+    nlon:restriction  *  # 출현율 10.44%
+}
+
+# nlon:OfflineMaterial (인스턴스 7,144,183건)
+<nlon:OfflineMaterial> {
+    nlon:datePublished  +  # 출현율 100.0%
+    dcterms:title  *  # 출현율 100.0%
+    rdfs:label  *  # 출현율 100.0%
+    bibframe:extent  *  # 출현율 99.99%
+    nlon:classificationNumberOfNLK  *  # 출현율 99.98%
+    nlon:itemNumberOfNLK  *  # 출현율 99.98%
+    bibframe:language  *  # 출현율 99.63%
+    bibframe:place  *  # 출현율 99.63%
+    nlon:issuedYear  *  # 출현율 99.47%
+    dc:creator  *  # 출현율 85.04%
+    nlon:typeOfData  *  # 출현율 83.2%
+    dcterms:issued  *  # 출현율 83.18%
+    dc:publisher  *  # 출현율 83.12%
+    nlon:localHolding  *  # 출현율 82.01%
+    nlon:publicationPlace  *  # 출현율 81.69%
+    nlon:kdc  *  # 출현율 65.91%
+    nlon:editionOfKDC  *  # 출현율 64.58%
+    nlon:ddc  *  # 출현율 60.17%
+    nlon:editionOfDDC  *  # 출현율 59.13%
+    nlon:kdcn  *  # 출현율 56.7%
+    dcterms:description  *  # 출현율 50.02%
+    nlon:keyword  *  # 출현율 48.58%
+    dcterms:creator  *  # 출현율 43.95%
+    dcterms:language  *  # 출현율 42.46%
+    bibo:isbn  *  # 출현율 33.27%
+    nlon:bibliography  *  # 출현율 30.34%
+    nlon:remainderOfTitle  *  # 출현율 29.82%
+    nlon:volumeOfNLK  *  # 출현율 29.75%
+    nlon:ddcn  *  # 출현율 28.85%
+    dcterms:subject  *  # 출현율 28.22%
+    nlon:degreeYear  *  # 출현율 26.16%
+    bibo:degree  *  # 출현율 26.07%
+    nlon:department  *  # 출현율 25.36%
+    dcterms:alternative  *  # 출현율 24.57%
+    rdfs:seeAlso  *  # 출현율 18.58%
+    nlon:titleOfSeries  *  # 출현율 18.5%
+    nlon:languageNote  *  # 출현율 18.4%
+    dcterms:isPartOf  *  # 출현율 16.95%
+    nlon:containedIn  *  # 출현율 16.8%
+    owl:sameAs  *  # 출현율 15.46%
+    nlon:biographicalNote  *  # 출현율 14.32%
+    nlon:volumeOfSeries  *  # 출현율 13.12%
+    bibo:abstract  *  # 출현율 10.14%
+}
+
+# nlon:Book (인스턴스 6,845,116건)
+<nlon:Book> {
+    nlon:datePublished  +  # 출현율 100.0%
+    dcterms:title  *  # 출현율 100.0%
+    rdfs:label  *  # 출현율 100.0%
+    bibframe:extent  *  # 출현율 99.99%
+    nlon:classificationNumberOfNLK  *  # 출현율 99.98%
+    nlon:itemNumberOfNLK  *  # 출현율 99.97%
+    bibframe:language  *  # 출현율 99.87%
+    bibframe:place  *  # 출현율 99.87%
+    nlon:issuedYear  *  # 출현율 99.47%
+    dc:creator  *  # 출현율 85.58%
+    nlon:typeOfData  *  # 출현율 82.47%
+    dcterms:issued  *  # 출현율 82.44%
+    dc:publisher  *  # 출현율 82.39%
+    nlon:localHolding  *  # 출현율 81.22%
+    nlon:publicationPlace  *  # 출현율 80.9%
+    nlon:kdc  *  # 출현율 64.46%
+    nlon:editionOfKDC  *  # 출현율 63.57%
+    nlon:ddc  *  # 출현율 62.75%
+    nlon:editionOfDDC  *  # 출현율 61.66%
+    nlon:kdcn  *  # 출현율 55.4%
+    dcterms:description  *  # 출현율 48.56%
+    nlon:keyword  *  # 출현율 48.28%
+    dcterms:language  *  # 출현율 43.73%
+    dcterms:creator  *  # 출현율 42.92%
+    bibo:isbn  *  # 출현율 34.36%
+    nlon:bibliography  *  # 출현율 31.65%
+    nlon:remainderOfTitle  *  # 출현율 30.4%
+    nlon:ddcn  *  # 출현율 30.1%
+    nlon:volumeOfNLK  *  # 출현율 29.9%
+    dcterms:subject  *  # 출현율 28.19%
+    nlon:degreeYear  *  # 출현율 27.3%
+    bibo:degree  *  # 출현율 27.21%
+    nlon:department  *  # 출현율 26.47%
+    dcterms:alternative  *  # 출현율 23.68%
+    rdfs:seeAlso  *  # 출현율 19.22%
+    nlon:titleOfSeries  *  # 출현율 18.94%
+    nlon:languageNote  *  # 출현율 18.58%
+    dcterms:isPartOf  *  # 출현율 17.69%
+    nlon:containedIn  *  # 출현율 17.53%
+    owl:sameAs  *  # 출현율 16.11%
+    nlon:biographicalNote  *  # 출현율 14.95%
+    nlon:volumeOfSeries  *  # 출현율 13.56%
+    bibo:abstract  *  # 출현율 10.58%
+}
+
+# bibo:Book (인스턴스 3,588,544건)
+<bibo:Book> {
+    bibframe:extent  *  # 출현율 100.0%
+    nlon:classificationNumberOfNLK  *  # 출현율 100.0%
+    nlon:datePublished  +  # 출현율 100.0%
+    nlon:itemNumberOfNLK  *  # 출현율 100.0%
+    nlon:localHolding  *  # 출현율 100.0%
+    nlon:typeOfData  ?  # 출현율 100.0%
+    dcterms:title  *  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    dcterms:issued  *  # 출현율 99.96%
+    bibframe:language  ?  # 출현율 99.94%
+    bibframe:place  ?  # 출현율 99.94%
+    nlon:issuedYear  ?  # 출현율 99.88%
+    dc:publisher  *  # 출현율 99.87%
+    nlon:publicationPlace  *  # 출현율 97.02%
+    dc:creator  *  # 출현율 75.73%
+    nlon:kdc  *  # 출현율 70.79%
+    nlon:editionOfKDC  *  # 출현율 69.68%
+    nlon:ddc  *  # 출현율 68.3%
+    nlon:editionOfDDC  *  # 출현율 66.58%
+    bibo:isbn  *  # 출현율 65.51%
+    nlon:kdcn  *  # 출현율 62.6%
+    dcterms:creator  *  # 출현율 56.33%
+    dcterms:subject  *  # 출현율 52.06%
+    dcterms:description  *  # 출현율 42.41%
+    nlon:remainderOfTitle  *  # 출현율 41.52%
+    dcterms:alternative  *  # 출현율 38.39%
+    rdfs:seeAlso  *  # 출현율 36.67%
+    nlon:titleOfSeries  *  # 출현율 36.08%
+    nlon:ddcn  *  # 출현율 31.76%
+    nlon:keyword  *  # 출현율 31.14%
+    nlon:bibliography  *  # 출현율 29.48%
+    nlon:volumeOfSeries  *  # 출현율 25.86%
+    nlon:volumeOfNLK  *  # 출현율 20.99%
+    dcterms:language  *  # 출현율 17.22%
+    owl:sameAs  *  # 출현율 14.88%
+    nlon:uniformTitleOfSeries  *  # 출현율 14.22%
+    nlon:languageNote  *  # 출현율 11.29%
+    bibo:volume  *  # 출현율 10.27%
+}
+
+# nlon:ElectronicBook (인스턴스 2,895,364건)
+<nlon:ElectronicBook> {
+    nlon:datePublished  1  # 출현율 100.0%
+    rdfs:label  ?  # 출현율 99.99%
+    nlon:genre  ?  # 출현율 99.94%
+    dc:publisher  *  # 출현율 99.2%
+    bibframe:extent  *  # 출현율 98.93%
+    dcterms:accessRights  *  # 출현율 98.59%
+    nlon:publicationPlace  *  # 출현율 98.28%
+    dcterms:title  *  # 출현율 97.25%
+    nlon:typeOfResource  ?  # 출현율 97.22%
+    nlon:audienceNote  *  # 출현율 94.36%
+    nlon:antecedentSource  ?  # 출현율 78.19%
+    nlon:medium  *  # 출현율 78.07%
+    dc:format  *  # 출현율 78.06%
+    dcterms:issued  *  # 출현율 77.77%
+    dc:creator  *  # 출현율 63.81%
+    nlon:kdc  *  # 출현율 62.19%
+    nlon:kdcn  *  # 출현율 61.38%
+    dcterms:creator  *  # 출현율 57.94%
+    nlon:holdingInstitution  ?  # 출현율 54.36%
+    nlon:uci  *  # 출현율 53.91%
+    dcterms:subject  *  # 출현율 48.8%
+    nlon:restriction  *  # 출현율 47.85%
+    dcterms:hasFormat  *  # 출현율 47.27%
+    dcterms:description  *  # 출현율 43.1%
+    dcterms:identifier  *  # 출현율 38.65%
+    nlon:keyword  *  # 출현율 36.0%
+    dcterms:alternative  *  # 출현율 31.17%
+    nlon:remainderOfTitle  *  # 출현율 31.01%
+    bibo:isbn  *  # 출현율 30.25%
+    nlon:bibliography  *  # 출현율 21.59%
+    nlon:titleOfSeries  *  # 출현율 21.44%
+    nlon:uniformTitleOfSeries  *  # 출현율 21.44%
+    nlon:ddc  *  # 출현율 21.05%
+    nlon:ddcn  *  # 출현율 20.9%
+    nlon:languageNote  *  # 출현율 16.76%
+    bibo:volume  *  # 출현율 15.38%
+    dcterms:tableOfContents  *  # 출현율 12.83%
+    nlon:reproductionNote  *  # 출현율 11.94%
+    bibo:degree  ?  # 출현율 10.23%
+}
+
+# bibo:Thesis (인스턴스 1,869,680건)
+<bibo:Thesis> {
+    bibframe:extent  *  # 출현율 100.0%
+    nlon:classificationNumberOfNLK  +  # 출현율 100.0%
+    nlon:datePublished  +  # 출현율 100.0%
+    nlon:itemNumberOfNLK  +  # 출현율 100.0%
+    nlon:localHolding  *  # 출현율 100.0%
+    nlon:typeOfData  1  # 출현율 100.0%
+    dcterms:title  +  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    nlon:issuedYear  *  # 출현율 99.99%
+    dc:publisher  *  # 출현율 99.99%
+    dcterms:issued  *  # 출현율 99.99%
+    bibframe:language  *  # 출현율 99.98%
+    bibframe:place  *  # 출현율 99.98%
+    nlon:publicationPlace  *  # 출현율 99.98%
+    dc:creator  *  # 출현율 99.98%
+    nlon:degreeYear  *  # 출현율 99.9%
+    bibo:degree  *  # 출현율 99.57%
+    nlon:ddc  *  # 출현율 98.07%
+    nlon:editionOfDDC  *  # 출현율 97.51%
+    nlon:department  *  # 출현율 96.89%
+    nlon:kdc  *  # 출현율 96.42%
+    nlon:editionOfKDC  *  # 출현율 96.32%
+    dcterms:language  *  # 출현율 90.04%
+    nlon:kdcn  *  # 출현율 80.07%
+    nlon:bibliography  *  # 출현율 59.27%
+    nlon:ddcn  *  # 출현율 49.12%
+    nlon:keyword  *  # 출현율 46.13%
+    dcterms:description  *  # 출현율 45.98%
+    nlon:languageNote  *  # 출현율 44.8%
+    owl:sameAs  *  # 출현율 29.51%
+    dcterms:creator  *  # 출현율 29.3%
+    nlon:remainderOfTitle  *  # 출현율 20.57%
+    dcterms:identifier  *  # 출현율 18.71%
+}
+
+# nlon:Author (인스턴스 1,618,009건)
+<nlon:Author> {
+    nlon:create  +  # 출현율 100.0%
+    dcterms:modified  +  # 출현율 100.0%
+    rdfs:label  +  # 출현율 100.0%
+    skos:prefLabel  1  # 출현율 100.0%
+    foaf:name  1  # 출현율 100.0%
+    nlon:fieldOfActivity  *  # 출현율 99.99%
+    nlon:associatedLanguage  *  # 출현율 99.95%
+    dc:source  *  # 출현율 99.92%
+    http://schema.org/jobTitle  *  # 출현율 92.74%
+    owl:sameAs  *  # 출현율 81.52%
+    nlon:isni  *  # 출현율 75.93%
+    skos:altLabel  *  # 출현율 66.22%
+    nlon:corporateName  *  # 출현율 60.2%
+    http://schema.org/gender  ?  # 출현율 51.33%
+    nlon:birthYear  ?  # 출현율 32.51%
+}
+
+# bibo:Article (인스턴스 1,200,240건)
+<bibo:Article> {
+    bibframe:extent  *  # 출현율 100.0%
+    nlon:classificationNumberOfNLK  *  # 출현율 100.0%
+    nlon:containedIn  *  # 출현율 100.0%
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:issuedYear  *  # 출현율 100.0%
+    nlon:itemNumberOfNLK  *  # 출현율 100.0%
+    dcterms:isPartOf  *  # 출현율 100.0%
+    dcterms:title  *  # 출현율 100.0%
+    rdfs:label  *  # 출현율 100.0%
+    dc:creator  *  # 출현율 99.79%
+    bibframe:language  *  # 출현율 99.5%
+    bibframe:place  *  # 출현율 99.5%
+    nlon:volumeOfNLK  *  # 출현율 99.28%
+    nlon:keyword  *  # 출현율 97.46%
+    nlon:biographicalNote  *  # 출현율 85.24%
+    dcterms:description  *  # 출현율 69.45%
+    bibo:abstract  *  # 출현율 60.33%
+    dcterms:language  *  # 출현율 57.55%
+    dcterms:creator  *  # 출현율 30.22%
+    dcterms:tableOfContents  *  # 출현율 21.14%
+    nlon:remainderOfTitle  *  # 출현율 15.95%
+}
+
+# bibo:Website (인스턴스 698,310건)
+<bibo:Website> {
+    nlon:datePublished  1  # 출현율 100.0%
+    dcterms:identifier  *  # 출현율 99.84%
+    dcterms:accessRights  ?  # 출현율 99.27%
+    dcterms:title  *  # 출현율 98.49%
+    rdfs:label  ?  # 출현율 98.49%
+    nlon:genre  ?  # 출현율 96.58%
+    nlon:publicationPlace  *  # 출현율 86.9%
+    nlon:audienceNote  ?  # 출현율 86.7%
+    dc:publisher  *  # 출현율 77.88%
+    nlon:uci  ?  # 출현율 68.89%
+    nlon:holdingInstitution  ?  # 출현율 52.18%
+    dcterms:abstract  *  # 출현율 47.26%
+    nlon:restriction  *  # 출현율 41.84%
+    nlon:antecedentSource  ?  # 출현율 39.95%
+    nlon:medium  ?  # 출현율 38.44%
+    dc:format  ?  # 출현율 38.43%
+    dcterms:issued  *  # 출현율 31.98%
+    dcterms:subject  *  # 출현율 31.66%
+    nlon:currentPublicationFrequency  ?  # 출현율 31.46%
+    dcterms:tableOfContents  *  # 출현율 25.21%
+    nlon:keyword  *  # 출현율 24.71%
+    dc:creator  *  # 출현율 23.28%
+    nlon:kdc  *  # 출현율 22.96%
+    nlon:kdcn  *  # 출현율 22.96%
+}
+
+# nlon:Sound (인스턴스 626,033건)
+<nlon:Sound> {
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:genre  ?  # 출현율 100.0%
+    nlon:typeOfResource  ?  # 출현율 100.0%
+    dcterms:title  *  # 출현율 100.0%
+    rdfs:label  ?  # 출현율 100.0%
+    nlon:antecedentSource  ?  # 출현율 99.99%
+    nlon:medium  ?  # 출현율 99.99%
+    bibframe:extent  *  # 출현율 99.98%
+    dc:format  *  # 출현율 99.97%
+    dcterms:accessRights  *  # 출현율 99.9%
+    nlon:audienceNote  ?  # 출현율 99.51%
+    dcterms:subject  *  # 출현율 96.3%
+    dcterms:issued  *  # 출현율 85.49%
+    nlon:kdc  *  # 출현율 77.14%
+    dcterms:creator  *  # 출현율 77.06%
+    nlon:kdcn  *  # 출현율 76.85%
+    dc:creator  *  # 출현율 68.72%
+    nlon:newsGenre  ?  # 출현율 67.29%
+    nlon:languageNote  ?  # 출현율 55.87%
+    nlon:publicationPlace  *  # 출현율 44.53%
+    nlon:holdingInstitution  ?  # 출현율 43.08%
+    dc:publisher  *  # 출현율 40.3%
+    dcterms:description  *  # 출현율 39.27%
+    nlon:restriction  ?  # 출현율 39.24%
+    nlon:relatedParts  *  # 출현율 32.5%
+    nlon:titleOfHostItem  *  # 출현율 31.92%
+    dcterms:abstract  ?  # 출현율 24.98%
+    nlon:remainderOfTitle  *  # 출현율 14.93%
+    dcterms:hasFormat  *  # 출현율 12.47%
+    dcterms:created  *  # 출현율 11.2%
+    dcterms:identifier  *  # 출현율 10.13%
+}
+
+# nlon:Concept (인스턴스 515,412건)
+<nlon:Concept> {
+    rdfs:label  *  # 출현율 100.0%
+    owl:sameAs  *  # 출현율 100.0%
+    skos:inScheme  ?  # 출현율 50.0%
+    skos:broader  *  # 출현율 33.31%
+    skos:related  *  # 출현율 31.58%
+    skos:prefLabel  *  # 출현율 27.62%
+    skos:altLabel  *  # 출현율 27.38%
+    nlon:isSubjectOf  *  # 출현율 20.11%
+}
+
+# nlon:NonBook (인스턴스 299,070건)
+<nlon:NonBook> {
+    nlon:classificationNumberOfNLK  *  # 출현율 100.0%
+    nlon:datePublished  +  # 출현율 100.0%
+    nlon:itemNumberOfNLK  *  # 출현율 100.0%
+    nlon:localHolding  *  # 출현율 100.0%
+    nlon:typeOfData  ?  # 출현율 100.0%
+    dcterms:title  *  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    bibframe:extent  *  # 출현율 99.99%
+    dcterms:issued  *  # 출현율 99.99%
+    nlon:publicationPlace  *  # 출현율 99.97%
+    dc:publisher  *  # 출현율 99.92%
+    nlon:medium  ?  # 출현율 99.69%
+    nlon:issuedYear  ?  # 출현율 99.53%
+    nlon:kdc  *  # 출현율 99.09%
+    bibframe:language  *  # 출현율 94.18%
+    bibframe:place  ?  # 출현율 94.18%
+    nlon:editionOfKDC  *  # 출현율 87.65%
+    nlon:kdcn  *  # 출현율 86.46%
+    dcterms:description  *  # 출현율 83.4%
+    dc:creator  *  # 출현율 72.67%
+    dcterms:creator  *  # 출현율 67.6%
+    nlon:keyword  *  # 출현율 55.42%
+    dcterms:alternative  *  # 출현율 44.89%
+    dcterms:tableOfContents  *  # 출현율 33.34%
+    dcterms:subject  *  # 출현율 28.84%
+    dcterms:requires  *  # 출현율 28.35%
+    nlon:volumeOfNLK  *  # 출현율 26.18%
+    dc:format  ?  # 출현율 23.9%
+    bibo:volume  *  # 출현율 20.39%
+    nlon:remainderOfTitle  *  # 출현율 16.59%
+    nlon:languageNote  *  # 출현율 14.29%
+    dcterms:language  *  # 출현율 13.46%
+    nlon:audienceNote  *  # 출현율 12.53%
+    dcterms:identifier  *  # 출현율 10.42%
+}
+
+# bibo:Image (인스턴스 246,414건)
+<bibo:Image> {
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:typeOfResource  ?  # 출현율 100.0%
+    nlon:publicationPlace  *  # 출현율 99.95%
+    dcterms:title  *  # 출현율 99.92%
+    rdfs:label  ?  # 출현율 99.92%
+    nlon:genre  ?  # 출현율 99.44%
+    dc:publisher  *  # 출현율 97.37%
+    dcterms:accessRights  ?  # 출현율 91.11%
+    bibframe:extent  *  # 출현율 85.87%
+    nlon:medium  ?  # 출현율 85.31%
+    nlon:audienceNote  ?  # 출현율 85.26%
+    nlon:antecedentSource  ?  # 출현율 85.25%
+    dc:format  ?  # 출현율 85.18%
+    nlon:holdingInstitution  ?  # 출현율 85.03%
+    nlon:kdc  *  # 출현율 68.66%
+    nlon:kdcn  *  # 출현율 68.65%
+    dcterms:description  *  # 출현율 63.74%
+    dcterms:identifier  *  # 출현율 54.4%
+    nlon:keyword  *  # 출현율 53.54%
+    dcterms:creator  *  # 출현율 51.76%
+    nlon:uci  ?  # 출현율 49.05%
+    dcterms:issued  *  # 출현율 43.08%
+    nlon:restriction  ?  # 출현율 39.68%
+    dcterms:subject  *  # 출현율 38.68%
+    nlon:titleOfHostItem  ?  # 출현율 36.8%
+    nlon:remainderOfTitle  *  # 출현율 26.88%
+    dcterms:abstract  ?  # 출현율 20.26%
+    nlon:locationNote  ?  # 출현율 18.02%
+    dc:creator  *  # 출현율 16.62%
+    nlon:languageNote  *  # 출현율 15.7%
+    nlon:titleOfSeries  *  # 출현율 12.33%
+    nlon:uniformTitleOfSeries  *  # 출현율 12.33%
+    dcterms:alternative  *  # 출현율 10.47%
+}
+
+# nlon:VideoDocument (인스턴스 227,144건)
+<nlon:VideoDocument> {
+    bibframe:extent  *  # 출현율 100.0%
+    nlon:antecedentSource  ?  # 출현율 100.0%
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:genre  1  # 출현율 100.0%
+    nlon:medium  +  # 출현율 100.0%
+    nlon:publicationPlace  +  # 출현율 100.0%
+    nlon:typeOfResource  1  # 출현율 100.0%
+    dcterms:title  +  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    dc:publisher  *  # 출현율 99.89%
+    dc:format  *  # 출현율 97.9%
+    dcterms:accessRights  *  # 출현율 97.68%
+    nlon:holdingInstitution  ?  # 출현율 97.54%
+    dcterms:issued  *  # 출현율 95.73%
+    nlon:audienceNote  ?  # 출현율 92.0%
+    bibo:volume  *  # 출현율 85.16%
+    nlon:remainderOfTitle  *  # 출현율 58.94%
+    nlon:keyword  *  # 출현율 55.17%
+    dcterms:identifier  *  # 출현율 47.21%
+    dcterms:subject  *  # 출현율 42.55%
+    dcterms:abstract  *  # 출현율 41.54%
+    nlon:kdc  *  # 출현율 37.14%
+    nlon:kdcn  *  # 출현율 37.14%
+    nlon:restriction  ?  # 출현율 36.63%
+    dc:relation  ?  # 출현율 33.47%
+    nlon:uci  ?  # 출현율 31.01%
+    dcterms:creator  *  # 출현율 20.95%
+    dcterms:tableOfContents  ?  # 출현율 19.28%
+    dcterms:requires  ?  # 출현율 14.18%
+    dcterms:description  *  # 출현율 13.24%
+}
+
+# nlon:DigitalizedScore (인스턴스 104,007건)
+<nlon:DigitalizedScore> {
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:publicationPlace  *  # 출현율 100.0%
+    dcterms:accessRights  1  # 출현율 100.0%
+    dcterms:title  *  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    bibframe:extent  ?  # 출현율 99.99%
+    dc:publisher  *  # 출현율 99.87%
+    nlon:genre  ?  # 출현율 99.83%
+    nlon:kdc  *  # 출현율 98.75%
+    nlon:medium  ?  # 출현율 98.54%
+    nlon:kdcn  *  # 출현율 98.21%
+    dcterms:issued  *  # 출현율 96.8%
+    nlon:uci  ?  # 출현율 96.71%
+    dcterms:hasFormat  *  # 출현율 96.67%
+    nlon:typeOfResource  ?  # 출현율 95.96%
+    nlon:keyword  *  # 출현율 95.56%
+    dc:creator  *  # 출현율 95.04%
+    dcterms:description  *  # 출현율 82.02%
+    dcterms:creator  *  # 출현율 65.97%
+}
+
+# nlon:Score (인스턴스 103,492건)
+<nlon:Score> {
+    bibframe:extent  *  # 출현율 100.0%
+    nlon:classificationNumberOfNLK  +  # 출현율 100.0%
+    nlon:datePublished  +  # 출현율 100.0%
+    nlon:itemNumberOfNLK  *  # 출현율 100.0%
+    nlon:localHolding  +  # 출현율 100.0%
+    nlon:publicationPlace  +  # 출현율 100.0%
+    nlon:typeOfData  1  # 출현율 100.0%
+    dcterms:issued  *  # 출현율 100.0%
+    dcterms:title  +  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    nlon:issuedYear  ?  # 출현율 99.97%
+    nlon:kdc  *  # 출현율 99.9%
+    dc:publisher  *  # 출현율 99.87%
+    nlon:medium  ?  # 출현율 99.6%
+    nlon:editionOfKDC  ?  # 출현율 98.91%
+    nlon:kdcn  ?  # 출현율 98.81%
+    nlon:keyword  *  # 출현율 96.97%
+    dc:creator  *  # 출현율 95.84%
+    bibframe:language  *  # 출현율 87.74%
+    bibframe:place  ?  # 출현율 87.74%
+    dcterms:description  *  # 출현율 83.17%
+    dcterms:creator  *  # 출현율 70.67%
+    nlon:volumeOfNLK  *  # 출현율 15.29%
+    nlon:linkingEntryComplexityNote  ?  # 출현율 13.95%
+    nlon:titleOfAdditionalPhysicalForm  ?  # 출현율 13.94%
+    dcterms:alternative  *  # 출현율 10.38%
+}
+
+# nlon:OldBook (인스턴스 101,452건)
+<nlon:OldBook> {
+    bibframe:extent  *  # 출현율 100.0%
+    nlon:classificationNumberOfNLK  +  # 출현율 100.0%
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:itemNumberOfNLK  +  # 출현율 100.0%
+    nlon:localHolding  *  # 출현율 100.0%
+    nlon:typeOfData  ?  # 출현율 100.0%
+    dcterms:title  +  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    nlon:otherNumber  *  # 출현율 99.99%
+    dcterms:issued  *  # 출현율 99.93%
+    dc:publisher  *  # 출현율 99.91%
+    nlon:publicationPlace  *  # 출현율 99.9%
+    bibframe:language  ?  # 출현율 99.75%
+    bibframe:place  ?  # 출현율 99.75%
+    nlon:sourceOfOtherNumber  ?  # 출현율 92.72%
+    nlon:keyword  *  # 출현율 89.27%
+    bibo:edition  ?  # 출현율 87.83%
+    dcterms:description  *  # 출현율 72.9%
+    dc:creator  *  # 출현율 72.08%
+    nlon:issuedYear  ?  # 출현율 68.61%
+    nlon:holdingItemNote  *  # 출현율 42.28%
+    dcterms:subject  *  # 출현율 23.92%
+    dcterms:alternative  *  # 출현율 20.92%
+    nlon:volumeOfNLK  *  # 출현율 20.66%
+    bibo:volume  *  # 출현율 16.54%
+    dcterms:abstract  *  # 출현율 16.37%
+}
+
+# bibo:AudioDocument (인스턴스 91,992건)
+<bibo:AudioDocument> {
+    nlon:classificationNumberOfNLK  *  # 출현율 100.0%
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:itemNumberOfNLK  *  # 출현율 100.0%
+    nlon:localHolding  +  # 출현율 100.0%
+    nlon:publicationPlace  *  # 출현율 100.0%
+    nlon:typeOfData  ?  # 출현율 100.0%
+    dcterms:title  *  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    bibframe:extent  *  # 출현율 99.99%
+    dc:publisher  *  # 출현율 99.99%
+    dcterms:issued  *  # 출현율 99.99%
+    nlon:medium  ?  # 출현율 99.96%
+    nlon:kdc  *  # 출현율 99.94%
+    nlon:issuedYear  ?  # 출현율 99.34%
+    bibframe:language  ?  # 출현율 95.37%
+    bibframe:place  ?  # 출현율 95.37%
+    dcterms:description  *  # 출현율 91.5%
+    nlon:editionOfKDC  ?  # 출현율 82.28%
+    nlon:kdcn  *  # 출현율 80.96%
+    dc:creator  *  # 출현율 77.2%
+    dcterms:tableOfContents  *  # 출현율 69.8%
+    dcterms:alternative  *  # 출현율 63.57%
+    dcterms:creator  *  # 출현율 63.43%
+    dcterms:subject  *  # 출현율 54.27%
+    nlon:keyword  *  # 출현율 30.01%
+    nlon:remainderOfTitle  *  # 출현율 24.19%
+    nlon:volumeOfNLK  ?  # 출현율 23.23%
+    bibo:volume  *  # 출현율 22.67%
+    nlon:languageNote  *  # 출현율 17.3%
+    bibo:isbn  *  # 출현율 13.16%
+    dcterms:requires  *  # 출현율 10.14%
+}
+
+# bibo:Periodical (인스턴스 85,200건)
+<bibo:Periodical> {
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:issuedYear  *  # 출현율 100.0%
+    dcterms:title  *  # 출현율 100.0%
+    rdfs:label  *  # 출현율 100.0%
+    nlon:typeOfData  *  # 출현율 99.99%
+    dcterms:issued  *  # 출현율 99.91%
+    nlon:typeOfContinuousData  ?  # 출현율 99.89%
+    nlon:typeOfPublicationStatus  *  # 출현율 99.87%
+    nlon:publicationPlace  *  # 출현율 99.82%
+    dc:publisher  *  # 출현율 99.77%
+    bibframe:language  *  # 출현율 99.71%
+    bibframe:place  *  # 출현율 99.71%
+    bibframe:extent  *  # 출현율 99.61%
+    nlon:currentPublicationFrequency  *  # 출현율 98.62%
+    nlon:classificationNumberOfNLK  *  # 출현율 98.21%
+    nlon:itemNumberOfNLK  *  # 출현율 98.19%
+    nlon:typeOfPublicationFrequency  *  # 출현율 97.59%
+    nlon:volumeOfNLK  *  # 출현율 94.25%
+    nlon:kdc  *  # 출현율 80.77%
+    nlon:keyword  *  # 출현율 75.69%
+    nlon:dateOfPublicationSequentialDesignation  *  # 출현율 73.98%
+    nlon:editionOfKDC  *  # 출현율 58.98%
+    nlon:kdcn  *  # 출현율 57.47%
+    dcterms:description  *  # 출현율 40.79%
+    dcterms:alternative  *  # 출현율 28.05%
+    bibo:issn  *  # 출현율 27.38%
+    dcterms:identifier  *  # 출현율 20.51%
+    owl:sameAs  *  # 출현율 19.94%
+    nlon:issuingBodyNote  *  # 출현율 19.76%
+    nlon:relatedParts  *  # 출현율 17.09%
+    nlon:numberingPeculiaritiesNote  *  # 출현율 14.14%
+    nlon:governmentPublisher  ?  # 출현율 13.32%
+    nlon:ddc  *  # 출현율 12.68%
+}
+
+# bibo:AudioVisualDocument (인스턴스 71,662건)
+<bibo:AudioVisualDocument> {
+    bibframe:extent  *  # 출현율 100.0%
+    nlon:classificationNumberOfNLK  +  # 출현율 100.0%
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:itemNumberOfNLK  +  # 출현율 100.0%
+    nlon:localHolding  +  # 출현율 100.0%
+    nlon:typeOfData  ?  # 출현율 100.0%
+    dcterms:title  +  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    dcterms:issued  *  # 출현율 99.99%
+    nlon:publicationPlace  *  # 출현율 99.88%
+    dc:publisher  *  # 출현율 99.88%
+    nlon:medium  ?  # 출현율 99.77%
+    dc:format  ?  # 출현율 99.75%
+    nlon:issuedYear  ?  # 출현율 99.41%
+    bibframe:language  ?  # 출현율 99.38%
+    bibframe:place  ?  # 출현율 99.38%
+    nlon:kdc  *  # 출현율 96.87%
+    dcterms:requires  *  # 출현율 92.9%
+    nlon:editionOfKDC  *  # 출현율 78.52%
+    nlon:kdcn  *  # 출현율 76.5%
+    dcterms:description  *  # 출현율 76.26%
+    dcterms:alternative  *  # 출현율 72.22%
+    dcterms:creator  *  # 출현율 71.98%
+    dc:creator  *  # 출현율 53.61%
+    nlon:audienceNote  *  # 출현율 44.32%
+    nlon:volumeOfNLK  *  # 출현율 41.01%
+    bibo:volume  *  # 출현율 38.1%
+    dcterms:tableOfContents  *  # 출현율 37.99%
+    dcterms:language  *  # 출현율 37.85%
+    dcterms:subject  *  # 출현율 36.73%
+    nlon:languageNote  *  # 출현율 30.8%
+    nlon:keyword  *  # 출현율 30.23%
+    dcterms:abstract  *  # 출현율 27.47%
+    dcterms:identifier  *  # 출현율 20.91%
+    nlon:remainderOfTitle  *  # 출현율 18.48%
+    nlon:titleOfSeries  *  # 출현율 12.4%
+}
+
+# nlon:Library (인스턴스 28,108건)
+<nlon:Library> {
+    nlon:libraryType  1  # 출현율 100.0%
+    dcterms:identifier  1  # 출현율 100.0%
+    dcterms:subject  1  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    http://www.w3.org/2003/01/geo/wgs84_pos#location  1  # 출현율 100.0%
+    nlon:keyword  *  # 출현율 96.45%
+    foaf:phone  ?  # 출현율 95.38%
+    nlon:isClosed  ?  # 출현율 73.59%
+    http://schema.org/faxNumber  ?  # 출현율 54.39%
+    foaf:homepage  *  # 출현율 53.85%
+    nlon:dateOfOpening  ?  # 출현율 52.13%
+    nlon:openingYear  ?  # 출현율 47.52%
+    nlon:dateOfClosed  ?  # 출현율 23.79%
+}
+
+# nlon:ElectronicDocument (인스턴스 21,143건)
+<nlon:ElectronicDocument> {
+    nlon:classificationNumberOfNLK  +  # 출현율 100.0%
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:itemNumberOfNLK  +  # 출현율 100.0%
+    nlon:typeOfData  1  # 출현율 100.0%
+    dcterms:title  +  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    bibframe:extent  *  # 출현율 99.99%
+    nlon:localHolding  *  # 출현율 99.99%
+    nlon:publicationPlace  *  # 출현율 99.99%
+    dc:publisher  *  # 출현율 99.99%
+    dcterms:issued  *  # 출현율 99.99%
+    bibframe:language  ?  # 출현율 99.95%
+    bibframe:place  ?  # 출현율 99.95%
+    nlon:kdc  *  # 출현율 99.94%
+    nlon:medium  ?  # 출현율 99.85%
+    nlon:issuedYear  ?  # 출현율 98.56%
+    nlon:editionOfKDC  ?  # 출현율 86.7%
+    nlon:kdcn  *  # 출현율 83.65%
+    dcterms:description  *  # 출현율 71.29%
+    dcterms:format  *  # 출현율 50.74%
+    dcterms:creator  *  # 출현율 50.35%
+    nlon:keyword  *  # 출현율 43.65%
+    dcterms:requires  *  # 출현율 42.03%
+    dc:creator  *  # 출현율 39.95%
+    dcterms:alternative  *  # 출현율 36.93%
+    bibo:isbn  *  # 출현율 36.38%
+    dcterms:tableOfContents  *  # 출현율 32.14%
+    dcterms:identifier  *  # 출현율 30.62%
+    nlon:volumeOfNLK  *  # 출현율 29.55%
+    nlon:remainderOfTitle  *  # 출현율 28.95%
+    bibo:volume  *  # 출현율 28.68%
+    nlon:titleOfSeries  *  # 출현율 27.32%
+    dcterms:subject  *  # 출현율 22.57%
+    nlon:governmentPublisher  ?  # 출현율 19.14%
+    bibo:edition  ?  # 출현율 16.71%
+    nlon:physicalFormAvailableNote  *  # 출현율 14.93%
+    rdfs:seeAlso  *  # 출현율 14.55%
+    dcterms:language  *  # 출현율 12.37%
+    nlon:originalVersionNote  *  # 출현율 11.37%
+    nlon:titleOfAdditionalPhysicalForm  *  # 출현율 11.17%
+    nlon:languageNote  *  # 출현율 11.1%
+    dcterms:hasFormat  *  # 출현율 11.1%
+}
+
+# nlon:AlternativeMaterial (인스턴스 15,765건)
+<nlon:AlternativeMaterial> {
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:typeOfResource  1  # 출현율 100.0%
+    dcterms:title  1  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    nlon:genre  ?  # 출현율 99.99%
+    nlon:languageNote  *  # 출현율 98.45%
+    nlon:uci  *  # 출현율 96.73%
+    dc:publisher  ?  # 출현율 95.67%
+    nlon:kdc  ?  # 출현율 84.29%
+    nlon:audienceNote  ?  # 출현율 79.13%
+    dcterms:issued  ?  # 출현율 77.07%
+    dc:format  ?  # 출현율 72.91%
+    bibframe:extent  ?  # 출현율 64.92%
+    nlon:restriction  ?  # 출현율 55.47%
+    nlon:antecedentSource  ?  # 출현율 54.93%
+    nlon:keyword  *  # 출현율 39.11%
+    nlon:remainderOfTitle  *  # 출현율 16.04%
+    nlon:newsGenre  ?  # 출현율 15.5%
+    nlon:medium  ?  # 출현율 14.16%
+    dcterms:description  ?  # 출현율 10.52%
+}
+
+# nlon:Map (인스턴스 10,677건)
+<nlon:Map> {
+    nlon:classificationNumberOfNLK  +  # 출현율 100.0%
+    nlon:datePublished  +  # 출현율 100.0%
+    nlon:itemNumberOfNLK  +  # 출현율 100.0%
+    nlon:localHolding  +  # 출현율 100.0%
+    nlon:typeOfData  1  # 출현율 100.0%
+    dcterms:title  +  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    bibframe:extent  *  # 출현율 99.98%
+    nlon:publicationPlace  *  # 출현율 99.98%
+    dcterms:issued  *  # 출현율 99.98%
+    dc:publisher  *  # 출현율 99.96%
+    bibframe:language  ?  # 출현율 99.93%
+    bibframe:place  ?  # 출현율 99.93%
+    nlon:issuedYear  ?  # 출현율 99.69%
+    nlon:medium  ?  # 출현율 98.39%
+    nlon:scale  *  # 출현율 97.72%
+    nlon:kdc  *  # 출현율 97.4%
+    dcterms:description  *  # 출현율 88.27%
+    nlon:editionOfKDC  ?  # 출현율 88.11%
+    nlon:kdcn  ?  # 출현율 86.78%
+    dcterms:creator  *  # 출현율 78.87%
+    nlon:governmentPublisher  ?  # 출현율 73.4%
+    nlon:projection  *  # 출현율 64.03%
+    nlon:keyword  *  # 출현율 63.51%
+    dcterms:alternative  *  # 출현율 51.24%
+    nlon:volumeOfNLK  ?  # 출현율 50.85%
+    bibo:volume  ?  # 출현율 49.62%
+    dcterms:identifier  *  # 출현율 39.41%
+    dcterms:language  *  # 출현율 22.44%
+    dcterms:subject  *  # 출현율 20.81%
+    nlon:languageNote  ?  # 출현율 20.52%
+    nlon:titleOfSeries  *  # 출현율 11.62%
+    nlon:remainderOfTitle  *  # 출현율 10.13%
+    dcterms:tableOfContents  *  # 출현율 10.05%
+}
+
+# nlon:DigitalizedMap (인스턴스 3,382건)
+<nlon:DigitalizedMap> {
+    bibframe:extent  1  # 출현율 100.0%
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:genre  1  # 출현율 100.0%
+    nlon:publicationPlace  +  # 출현율 100.0%
+    dc:publisher  +  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    dcterms:title  *  # 출현율 99.97%
+    nlon:audienceNote  ?  # 출현율 99.82%
+    nlon:antecedentSource  ?  # 출현율 99.7%
+    nlon:medium  ?  # 출현율 99.7%
+    dc:format  ?  # 출현율 99.47%
+    nlon:holdingInstitution  ?  # 출현율 98.76%
+    dcterms:accessRights  ?  # 출현율 98.58%
+    nlon:locationNote  ?  # 출현율 83.62%
+    dcterms:creator  *  # 출현율 52.48%
+    dcterms:description  *  # 출현율 14.93%
+    nlon:kdc  *  # 출현율 14.78%
+    nlon:kdcn  *  # 출현율 14.78%
+    dcterms:issued  ?  # 출현율 13.19%
+    nlon:typeOfResource  ?  # 출현율 12.83%
+    nlon:titleOfHostItem  ?  # 출현율 12.51%
+    dcterms:identifier  ?  # 출현율 12.48%
+    nlon:uci  ?  # 출현율 12.45%
+    nlon:keyword  *  # 출현율 11.77%
+}
+
+# nlon:Software (인스턴스 17건)
+<nlon:Software> {
+    nlon:antecedentSource  1  # 출현율 100.0%
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:medium  1  # 출현율 100.0%
+    nlon:publicationPlace  +  # 출현율 100.0%
+    nlon:typeOfResource  1  # 출현율 100.0%
+    dc:format  1  # 출현율 100.0%
+    dc:publisher  1  # 출현율 100.0%
+    dcterms:accessRights  1  # 출현율 100.0%
+    dcterms:issued  1  # 출현율 100.0%
+    nlon:keyword  *  # 출현율 94.12%
+    dcterms:title  ?  # 출현율 94.12%
+    rdfs:label  ?  # 출현율 94.12%
+    nlon:kdc  ?  # 출현율 88.24%
+    dc:creator  *  # 출현율 88.24%
+    dcterms:alternative  *  # 출현율 88.24%
+    bibframe:extent  ?  # 출현율 82.35%
+    nlon:locationNote  ?  # 출현율 82.35%
+    nlon:restriction  ?  # 출현율 82.35%
+    dcterms:tableOfContents  ?  # 출현율 76.47%
+    bibo:volume  ?  # 출현율 76.47%
+    nlon:kdcn  ?  # 출현율 70.59%
+    nlon:audienceNote  ?  # 출현율 17.65%
+    nlon:currentPublicationFrequency  ?  # 출현율 17.65%
+    nlon:genre  ?  # 출현율 17.65%
+    dcterms:abstract  ?  # 출현율 17.65%
+    dcterms:identifier  ?  # 출현율 17.65%
+    dcterms:subject  ?  # 출현율 17.65%
+    nlon:remainderOfTitle  ?  # 출현율 17.65%
+    nlon:holdingInstitution  ?  # 출현율 11.76%
+}
+
+# nlon:ComplexDocument (인스턴스 3건)
+<nlon:ComplexDocument> {
+    bibframe:extent  +  # 출현율 100.0%
+    bibframe:language  1  # 출현율 100.0%
+    bibframe:place  1  # 출현율 100.0%
+    nlon:classificationNumberOfNLK  1  # 출현율 100.0%
+    nlon:datePublished  1  # 출현율 100.0%
+    nlon:editionOfKDC  1  # 출현율 100.0%
+    nlon:issuedYear  1  # 출현율 100.0%
+    nlon:itemNumberOfNLK  1  # 출현율 100.0%
+    nlon:kdc  1  # 출현율 100.0%
+    nlon:kdcn  1  # 출현율 100.0%
+    nlon:localHolding  +  # 출현율 100.0%
+    nlon:publicationPlace  1  # 출현율 100.0%
+    nlon:typeOfData  1  # 출현율 100.0%
+    dc:publisher  1  # 출현율 100.0%
+    dcterms:description  +  # 출현율 100.0%
+    dcterms:issued  1  # 출현율 100.0%
+    dcterms:subject  +  # 출현율 100.0%
+    dcterms:tableOfContents  +  # 출현율 100.0%
+    dcterms:title  1  # 출현율 100.0%
+    rdfs:label  1  # 출현율 100.0%
+    nlon:volumeOfNLK  ?  # 출현율 66.67%
+    dc:creator  *  # 출현율 66.67%
+    dcterms:abstract  ?  # 출현율 66.67%
+    dcterms:alternative  *  # 출현율 66.67%
+    dcterms:creator  ?  # 출현율 66.67%
+    bibo:volume  ?  # 출현율 66.67%
+    nlon:languageNote  ?  # 출현율 33.33%
+    dcterms:language  *  # 출현율 33.33%
+    nlon:medium  ?  # 출현율 33.33%
+}
+

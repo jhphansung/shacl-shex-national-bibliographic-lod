@@ -1,0 +1,243 @@
+
+@prefix sh:      <http://www.w3.org/ns/shacl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix nlon:    <http://lod.nl.go.kr/ontology/> .
+@prefix bibo:    <http://purl.org/ontology/bibo/> .
+@prefix foaf:    <http://xmlns.com/foaf/0.1/> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix ex:      <http://example.org/nlk-shapes/> .
+
+# -----------------------------------------------------------
+# 공통 부품: 표제(title) 필수 - 표기 분산 통합
+#  dc:title, dcterms:title, title 형태를 모두 허용
+# -----------------------------------------------------------
+ex:TitleConstraint a sh:PropertyShape ;
+    sh:path [ sh:alternativePath (
+        dc:title
+        dcterms:title
+        <http://purl.org/dc/elements/1.1/title>
+        <http://purl.org/dc/terms/title>
+    ) ] ;
+    sh:minCount 1 ;
+    sh:name "표제" ;
+    sh:message "표제(title)가 누락되었습니다 (KORMARC 245 / RDA 핵심요소)." .
+
+# ===========================================================
+# 1. 자료 유형 클래스 (상위 + 하위)
+# ===========================================================
+
+ex:OfflineMaterialShape a sh:NodeShape ;
+    sh:targetClass nlon:OfflineMaterial ;
+    sh:property ex:TitleConstraint .
+
+ex:OnlineMaterialShape a sh:NodeShape ;
+    sh:targetClass nlon:OnlineMaterial ;
+    sh:property ex:TitleConstraint .
+
+ex:BookShape a sh:NodeShape ;
+    sh:targetClass nlon:Book ;
+    sh:property ex:TitleConstraint ;
+    sh:property [
+        sh:path nlon:kdc ;
+        sh:datatype xsd:string ;
+        sh:pattern "^[0-9]{3}(\\.[0-9]+)?$" ;
+        sh:name "한국십진분류" ;
+        sh:severity sh:Warning ;
+        sh:message "KDC 분류기호 형식이 올바르지 않습니다." ;
+    ] ;
+    sh:property [
+        sh:path nlon:isbn ;
+        sh:datatype xsd:string ;
+        sh:pattern "^(97[89])?[0-9]{9}[0-9Xx]$" ;
+        sh:name "ISBN" ;
+        sh:severity sh:Warning ;
+        sh:message "ISBN 형식이 올바르지 않습니다." ;
+    ] .
+
+ex:NonBookShape a sh:NodeShape ;
+    sh:targetClass nlon:NonBook ;
+    sh:property ex:TitleConstraint .
+
+ex:OldBookShape a sh:NodeShape ;
+    sh:targetClass nlon:OldBook ;
+    sh:property ex:TitleConstraint .
+
+ex:ElectronicBookShape a sh:NodeShape ;
+    sh:targetClass nlon:ElectronicBook ;
+    sh:property ex:TitleConstraint .
+
+ex:ElectronicJournalShape a sh:NodeShape ;
+    sh:targetClass nlon:ElectronicJournal ;
+    sh:property ex:TitleConstraint .
+
+ex:VideoDocumentShape a sh:NodeShape ;
+    sh:targetClass nlon:VideoDocument ;
+    sh:property ex:TitleConstraint .
+
+ex:SoundShape a sh:NodeShape ;
+    sh:targetClass nlon:Sound ;
+    sh:property ex:TitleConstraint .
+
+ex:ScoreShape a sh:NodeShape ;
+    sh:targetClass nlon:Score ;
+    sh:property ex:TitleConstraint .
+
+ex:AlternativeMaterialShape a sh:NodeShape ;
+    sh:targetClass nlon:AlternativeMaterial ;
+    sh:property ex:TitleConstraint .
+
+ex:DigitalizedScoreShape a sh:NodeShape ;
+    sh:targetClass nlon:DigitalizedScore ;
+    sh:property ex:TitleConstraint .
+
+ex:ElectronicDocumentShape a sh:NodeShape ;
+    sh:targetClass nlon:ElectronicDocument ;
+    sh:property ex:TitleConstraint .
+
+ex:MapShape a sh:NodeShape ;
+    sh:targetClass nlon:Map ;
+    sh:property ex:TitleConstraint .
+
+ex:DigitalizedMapShape a sh:NodeShape ;
+    sh:targetClass nlon:DigitalizedMap ;
+    sh:property ex:TitleConstraint .
+
+ex:SoftwareShape a sh:NodeShape ;
+    sh:targetClass nlon:Software ;
+    sh:property ex:TitleConstraint .
+
+ex:ComplexDocumentShape a sh:NodeShape ;
+    sh:targetClass nlon:ComplexDocument ;
+    sh:property ex:TitleConstraint .
+
+# ===========================================================
+# 2. BIBO 외부 어휘 클래스 (실데이터 직접 선언분)
+# ===========================================================
+
+ex:BiboBookShape a sh:NodeShape ;
+    sh:targetClass bibo:Book ;
+    sh:property ex:TitleConstraint .
+
+ex:BiboThesisShape a sh:NodeShape ;
+    sh:targetClass bibo:Thesis ;
+    sh:property ex:TitleConstraint .
+
+ex:BiboArticleShape a sh:NodeShape ;
+    sh:targetClass bibo:Article ;
+    sh:property ex:TitleConstraint .
+
+ex:BiboWebsiteShape a sh:NodeShape ;
+    sh:targetClass bibo:Website ;
+    sh:property ex:TitleConstraint .
+
+ex:BiboImageShape a sh:NodeShape ;
+    sh:targetClass bibo:Image ;
+    sh:property ex:TitleConstraint .
+
+ex:BiboAudioDocumentShape a sh:NodeShape ;
+    sh:targetClass bibo:AudioDocument ;
+    sh:property ex:TitleConstraint .
+
+ex:BiboPeriodicalShape a sh:NodeShape ;
+    sh:targetClass bibo:Periodical ;
+    sh:property ex:TitleConstraint .
+
+ex:BiboAudioVisualDocumentShape a sh:NodeShape ;
+    sh:targetClass bibo:AudioVisualDocument ;
+    sh:property ex:TitleConstraint .
+
+# ===========================================================
+# 3. 행위자 클래스
+# ===========================================================
+
+ex:AuthorShape a sh:NodeShape ;
+    sh:targetClass nlon:Author ;
+    sh:property [
+        sh:path [ sh:alternativePath (
+            foaf:name
+            <http://xmlns.com/foaf/0.1/name>
+        ) ] ;
+        sh:minCount 1 ;
+        sh:name "성명" ;
+        sh:message "저자명(foaf:name)이 누락되었습니다 (RDA 우선접근점 핵심요소)." ;
+    ] ;
+    sh:property [
+        sh:path nlon:isni ;
+        sh:datatype xsd:string ;
+        sh:pattern "^[0-9]{15}[0-9Xx]$" ;
+        sh:name "ISNI" ;
+        sh:severity sh:Warning ;
+        sh:message "ISNI 형식이 올바르지 않습니다 (16자리)." ;
+    ] .
+
+ex:PersonShape a sh:NodeShape ;
+    sh:targetClass foaf:Person ;
+    sh:property [
+        sh:path [ sh:alternativePath (
+            foaf:name
+            <http://xmlns.com/foaf/0.1/name>
+        ) ] ;
+        sh:minCount 1 ;
+        sh:name "성명" ;
+        sh:message "인명(foaf:name)이 누락되었습니다." ;
+    ] .
+
+ex:OrganizationShape a sh:NodeShape ;
+    sh:targetClass foaf:Organization ;
+    sh:property [
+        sh:path [ sh:alternativePath (
+            foaf:name
+            <http://xmlns.com/foaf/0.1/name>
+        ) ] ;
+        sh:minCount 1 ;
+        sh:name "단체명" ;
+        sh:message "단체명(foaf:name)이 누락되었습니다." ;
+    ] .
+
+ex:OrgOrganizationShape a sh:NodeShape ;
+    sh:targetClass <http://www.w3.org/ns/org#Organization> ;
+    sh:property [
+        sh:path [ sh:alternativePath (
+            foaf:name
+            <http://xmlns.com/foaf/0.1/name>
+            rdfs:label
+        ) ] ;
+        sh:minCount 1 ;
+        sh:name "단체명" ;
+        sh:message "단체명이 누락되었습니다." ;
+    ] .
+
+ex:LibraryShape a sh:NodeShape ;
+    sh:targetClass nlon:Library ;
+    sh:property [
+        sh:path [ sh:alternativePath (
+            foaf:name
+            <http://xmlns.com/foaf/0.1/name>
+            rdfs:label
+        ) ] ;
+        sh:minCount 1 ;
+        sh:name "도서관명" ;
+        sh:message "도서관명이 누락되었습니다." ;
+    ] .
+
+# ===========================================================
+# 4. 주제명 클래스
+# ===========================================================
+
+ex:ConceptShape a sh:NodeShape ;
+    sh:targetClass nlon:Concept ;
+    sh:property [
+        sh:path [ sh:alternativePath (
+            skos:prefLabel
+            rdfs:label
+            <http://www.w3.org/2004/02/skos/core#prefLabel>
+        ) ] ;
+        sh:minCount 1 ;
+        sh:name "주제명 레이블" ;
+        sh:message "주제명 레이블이 누락되었습니다." ;
+    ] .
